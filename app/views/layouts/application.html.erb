@@ -11,7 +11,10 @@
   <body>
     <header>
       <%= render 'layouts/header' %>
-      <%= render 'layouts/search' %>
+      <div class="d-flex align-items-center justify-content-center">
+        <%= render 'layouts/search' %>
+        <%= render 'layouts/tagsearch' %>
+      </div>
     </header>
       <main>
         <p id="notice"><%= notice %></p>
